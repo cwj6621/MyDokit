@@ -80,7 +80,7 @@
     </declare-styleable>
 
     <declare-styleable name="SpinKitView">
-        <attr name="SpinKit_Style">
+        <attr name="Spin_Style">
             <enum name="RotatingPlane" value="0"/>
             <enum name="DoubleBounce" value="1"/>
             <enum name="Wave" value="2"/>
@@ -97,7 +97,7 @@
             <enum name="PulseRing" value="13"/>
             <enum name="MultiplePulseRing" value="14"/>
         </attr>
-        <attr format="color" name="SpinKit_Color"/>
+        <attr format="color" name="Spin_Color"/>
     </declare-styleable>
 
 </resources>

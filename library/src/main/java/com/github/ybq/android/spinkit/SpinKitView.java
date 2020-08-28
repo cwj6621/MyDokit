@@ -17,7 +17,7 @@ import com.github.ybq.android.spinkit.sprite.Sprite;
  */
 public class SpinKitView extends ProgressBar {
 
-    private Style mStyle;
+
     private int mColor;
     private Sprite mSprite;
 
@@ -26,30 +26,25 @@ public class SpinKitView extends ProgressBar {
     }
 
     public SpinKitView(Context context, AttributeSet attrs) {
-        this(context, attrs, R.attr.SpinKitViewStyle);
+        this(context, attrs, R.attr.SpinViewStyle);
     }
 
     public SpinKitView(Context context, AttributeSet attrs, int defStyleAttr) {
-        this(context, attrs, defStyleAttr, R.style.SpinKitView);
+        this(context, attrs, defStyleAttr, R.style.SpinView);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public SpinKitView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SpinKitView, defStyleAttr,
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SpinView, defStyleAttr,
                 defStyleRes);
-        mStyle = Style.values()[a.getInt(R.styleable.SpinKitView_SpinKit_Style, 0)];
-        mColor = a.getColor(R.styleable.SpinKitView_SpinKit_Color, Color.WHITE);
+
+        mColor = Color.WHITE;
         a.recycle();
-        init();
+
         setIndeterminate(true);
     }
 
-    private void init() {
-        Sprite sprite = SpriteFactory.create(mStyle);
-        sprite.setColor(mColor);
-        setIndeterminateDrawable(sprite);
-    }
 
     @Override
     public void setIndeterminateDrawable(Drawable d) {

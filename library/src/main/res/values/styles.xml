@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="SpinKitView">
+    <style name="SpinView">
         <item name="android:indeterminateOnly">true</item>
         <item name="android:minWidth">48dip</item>
         <item name="android:maxWidth">48dip</item>
@@ -9,197 +9,197 @@
         <item name="android:maxHeight">48dip</item>
     </style>
 
-    <style name="SpinKitView.ChasingDots">
-        <item name="SpinKit_Style">ChasingDots</item>
+    <style name="SpinView.ChasingDots">
+        <item name="Spin_Style">ChasingDots</item>
     </style>
 
-    <style name="SpinKitView.Circle">
-        <item name="SpinKit_Style">Circle</item>
+    <style name="SpinView.Circle">
+        <item name="Spin_Style">Circle</item>
     </style>
 
-    <style name="SpinKitView.CubeGrid">
-        <item name="SpinKit_Style">CubeGrid</item>
+    <style name="SpinView.CubeGrid">
+        <item name="Spin_Style">CubeGrid</item>
     </style>
 
-    <style name="SpinKitView.DoubleBounce">
-        <item name="SpinKit_Style">DoubleBounce</item>
+    <style name="SpinView.DoubleBounce">
+        <item name="Spin_Style">DoubleBounce</item>
     </style>
 
-    <style name="SpinKitView.FadingCircle">
-        <item name="SpinKit_Style">FadingCircle</item>
+    <style name="SpinView.FadingCircle">
+        <item name="Spin_Style">FadingCircle</item>
     </style>
 
-    <style name="SpinKitView.FoldingCube">
-        <item name="SpinKit_Style">FoldingCube</item>
+    <style name="SpinView.FoldingCube">
+        <item name="Spin_Style">FoldingCube</item>
     </style>
 
-    <style name="SpinKitView.Pulse">
-        <item name="SpinKit_Style">Pulse</item>
+    <style name="SpinView.Pulse">
+        <item name="Spin_Style">Pulse</item>
     </style>
 
-    <style name="SpinKitView.RotatingPlane">
-        <item name="SpinKit_Style">RotatingPlane</item>
+    <style name="SpinView.RotatingPlane">
+        <item name="Spin_Style">RotatingPlane</item>
     </style>
 
-    <style name="SpinKitView.RotatingCircle">
-        <item name="SpinKit_Style">RotatingCircle</item>
+    <style name="SpinView.RotatingCircle">
+        <item name="Spin_Style">RotatingCircle</item>
     </style>
 
-    <style name="SpinKitView.ThreeBounce">
-        <item name="SpinKit_Style">ThreeBounce</item>
+    <style name="SpinView.ThreeBounce">
+        <item name="Spin_Style">ThreeBounce</item>
     </style>
 
-    <style name="SpinKitView.WanderingCubes">
-        <item name="SpinKit_Style">WanderingCubes</item>
+    <style name="SpinView.WanderingCubes">
+        <item name="Spin_Style">WanderingCubes</item>
     </style>
 
-    <style name="SpinKitView.Wave">
-        <item name="SpinKit_Style">Wave</item>
+    <style name="SpinView.Wave">
+        <item name="Spin_Style">Wave</item>
     </style>
 
-    <style name="SpinKitView.MultiplePulse">
-        <item name="SpinKit_Style">MultiplePulse</item>
+    <style name="SpinView.MultiplePulse">
+        <item name="Spin_Style">MultiplePulse</item>
     </style>
 
-    <style name="SpinKitView.PulseRing">
-        <item name="SpinKit_Style">PulseRing</item>
+    <style name="SpinView.PulseRing">
+        <item name="Spin_Style">PulseRing</item>
     </style>
 
-    <style name="SpinKitView.MultiplePulseRing">
-        <item name="SpinKit_Style">MultiplePulseRing</item>
+    <style name="SpinView.MultiplePulseRing">
+        <item name="Spin_Style">MultiplePulseRing</item>
     </style>
 
-    <style name="SpinKitView.Large">
+    <style name="SpinView.Large">
         <item name="android:minWidth">76dip</item>
         <item name="android:maxWidth">76dip</item>
         <item name="android:minHeight">76dip</item>
         <item name="android:maxHeight">76dip</item>
     </style>
 
-    <style name="SpinKitView.Large.ChasingDots">
-        <item name="SpinKit_Style">ChasingDots</item>
+    <style name="SpinView.Large.ChasingDots">
+        <item name="Spin_Style">ChasingDots</item>
     </style>
 
-    <style name="SpinKitView.Large.Circle">
-        <item name="SpinKit_Style">Circle</item>
+    <style name="SpinView.Large.Circle">
+        <item name="Spin_Style">Circle</item>
     </style>
 
-    <style name="SpinKitView.Large.CubeGrid">
-        <item name="SpinKit_Style">CubeGrid</item>
+    <style name="SpinView.Large.CubeGrid">
+        <item name="Spin_Style">CubeGrid</item>
     </style>
 
-    <style name="SpinKitView.Large.DoubleBounce">
-        <item name="SpinKit_Style">DoubleBounce</item>
+    <style name="SpinView.Large.DoubleBounce">
+        <item name="Spin_Style">DoubleBounce</item>
     </style>
 
-    <style name="SpinKitView.Large.FadingCircle">
-        <item name="SpinKit_Style">FadingCircle</item>
+    <style name="SpinView.Large.FadingCircle">
+        <item name="Spin_Style">FadingCircle</item>
     </style>
 
-    <style name="SpinKitView.Large.FoldingCube">
-        <item name="SpinKit_Style">FoldingCube</item>
+    <style name="SpinView.Large.FoldingCube">
+        <item name="Spin_Style">FoldingCube</item>
     </style>
 
-    <style name="SpinKitView.Large.Pulse">
-        <item name="SpinKit_Style">Pulse</item>
+    <style name="SpinView.Large.Pulse">
+        <item name="Spin_Style">Pulse</item>
     </style>
 
-    <style name="SpinKitView.Large.RotatingPlane">
-        <item name="SpinKit_Style">RotatingPlane</item>
+    <style name="SpinView.Large.RotatingPlane">
+        <item name="Spin_Style">RotatingPlane</item>
     </style>
 
-    <style name="SpinKitView.Large.RotatingCircle">
-        <item name="SpinKit_Style">RotatingCircle</item>
+    <style name="SpinView.Large.RotatingCircle">
+        <item name="Spin_Style">RotatingCircle</item>
     </style>
 
-    <style name="SpinKitView.Large.ThreeBounce">
-        <item name="SpinKit_Style">ThreeBounce</item>
+    <style name="SpinView.Large.ThreeBounce">
+        <item name="Spin_Style">ThreeBounce</item>
     </style>
 
-    <style name="SpinKitView.Large.WanderingCubes">
-        <item name="SpinKit_Style">WanderingCubes</item>
+    <style name="SpinView.Large.WanderingCubes">
+        <item name="Spin_Style">WanderingCubes</item>
     </style>
 
-    <style name="SpinKitView.Large.Wave">
-        <item name="SpinKit_Style">Wave</item>
+    <style name="SpinView.Large.Wave">
+        <item name="Spin_Style">Wave</item>
     </style>
 
-    <style name="SpinKitView.Large.MultiplePulse">
-        <item name="SpinKit_Style">MultiplePulse</item>
+    <style name="SpinView.Large.MultiplePulse">
+        <item name="Spin_Style">MultiplePulse</item>
     </style>
 
-    <style name="SpinKitView.Large.PulseRing">
-        <item name="SpinKit_Style">PulseRing</item>
+    <style name="SpinView.Large.PulseRing">
+        <item name="Spin_Style">PulseRing</item>
     </style>
 
-    <style name="SpinKitView.Large.MultiplePulseRing">
-        <item name="SpinKit_Style">MultiplePulseRing</item>
+    <style name="SpinView.Large.MultiplePulseRing">
+        <item name="Spin_Style">MultiplePulseRing</item>
     </style>
 
-    <style name="SpinKitView.Small">
+    <style name="SpinView.Small">
         <item name="android:minWidth">16dip</item>
         <item name="android:maxWidth">16dip</item>
         <item name="android:minHeight">16dip</item>
         <item name="android:maxHeight">16dip</item>
     </style>
 
-    <style name="SpinKitView.Small.ChasingDots">
-        <item name="SpinKit_Style">ChasingDots</item>
+    <style name="SpinView.Small.ChasingDots">
+        <item name="Spin_Style">ChasingDots</item>
     </style>
 
-    <style name="SpinKitView.Small.Circle">
-        <item name="SpinKit_Style">Circle</item>
+    <style name="SpinView.Small.Circle">
+        <item name="Spin_Style">Circle</item>
     </style>
 
-    <style name="SpinKitView.Small.CubeGrid">
-        <item name="SpinKit_Style">CubeGrid</item>
+    <style name="SpinView.Small.CubeGrid">
+        <item name="Spin_Style">CubeGrid</item>
     </style>
 
-    <style name="SpinKitView.Small.DoubleBounce">
-        <item name="SpinKit_Style">DoubleBounce</item>
+    <style name="SpinView.Small.DoubleBounce">
+        <item name="Spin_Style">DoubleBounce</item>
     </style>
 
-    <style name="SpinKitView.Small.FadingCircle">
-        <item name="SpinKit_Style">FadingCircle</item>
+    <style name="SpinView.Small.FadingCircle">
+        <item name="Spin_Style">FadingCircle</item>
     </style>
 
-    <style name="SpinKitView.Small.FoldingCube">
-        <item name="SpinKit_Style">FoldingCube</item>
+    <style name="SpinView.Small.FoldingCube">
+        <item name="Spin_Style">FoldingCube</item>
     </style>
 
-    <style name="SpinKitView.Small.Pulse">
-        <item name="SpinKit_Style">Pulse</item>
+    <style name="SpinView.Small.Pulse">
+        <item name="Spin_Style">Pulse</item>
     </style>
 
-    <style name="SpinKitView.Small.RotatingPlane">
-        <item name="SpinKit_Style">RotatingPlane</item>
+    <style name="SpinView.Small.RotatingPlane">
+        <item name="Spin_Style">RotatingPlane</item>
     </style>
 
-    <style name="SpinKitView.Small.RotatingCircle">
-        <item name="SpinKit_Style">RotatingCircle</item>
+    <style name="SpinView.Small.RotatingCircle">
+        <item name="Spin_Style">RotatingCircle</item>
     </style>
 
-    <style name="SpinKitView.Small.ThreeBounce">
-        <item name="SpinKit_Style">ThreeBounce</item>
+    <style name="SpinView.Small.ThreeBounce">
+        <item name="Spin_Style">ThreeBounce</item>
     </style>
 
-    <style name="SpinKitView.Small.WanderingCubes">
-        <item name="SpinKit_Style">WanderingCubes</item>
+    <style name="SpinView.Small.WanderingCubes">
+        <item name="Spin_Style">WanderingCubes</item>
     </style>
 
-    <style name="SpinKitView.Small.Wave">
-        <item name="SpinKit_Style">Wave</item>
+    <style name="SpinView.Small.Wave">
+        <item name="Spin_Style">Wave</item>
     </style>
 
-    <style name="SpinKitView.Small.MultiplePulse">
-        <item name="SpinKit_Style">MultiplePulse</item>
+    <style name="SpinView.Small.MultiplePulse">
+        <item name="Spin_Style">MultiplePulse</item>
     </style>
 
-    <style name="SpinKitView.Small.PulseRing">
-        <item name="SpinKit_Style">PulseRing</item>
+    <style name="SpinView.Small.PulseRing">
+        <item name="Spin_Style">PulseRing</item>
     </style>
 
-    <style name="SpinKitView.Small.MultiplePulseRing">
-        <item name="SpinKit_Style">MultiplePulseRing</item>
+    <style name="SpinView.Small.MultiplePulseRing">
+        <item name="Spin_Style">MultiplePulseRing</item>
     </style>
 </resources>

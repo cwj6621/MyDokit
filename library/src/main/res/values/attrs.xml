@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="SpinKitViewStyle" format="reference" />
+    <attr name="SpinViewStyle" format="reference" />
 
-    <declare-styleable name="SpinKitView">
-        <attr name="SpinKit_Style">
+    <declare-styleable name="SpinView">
+        <attr name="Spin_Style">
             <enum name="RotatingPlane" value="0" />
             <enum name="DoubleBounce" value="1" />
             <enum name="Wave" value="2" />
@@ -20,7 +20,7 @@
             <enum name="PulseRing" value="13" />
             <enum name="MultiplePulseRing" value="14" />
         </attr>
-        <attr name="SpinKit_Color" format="color" />
+        <attr name="Spin_Color" format="color" />
     </declare-styleable>
 
 </resources>

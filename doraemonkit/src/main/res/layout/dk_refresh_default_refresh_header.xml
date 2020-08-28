@@ -37,7 +37,7 @@
 
     <com.github.ybq.android.spinkit.SpinKitView
         android:id="@+id/loadingIcon"
-        style="@style/SpinKitView.Small.Circle"
+        style="@style/SpinView.Small.Circle"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_centerVertical="true"
@@ -46,6 +46,6 @@
         android:layout_toLeftOf="@+id/text"
         android:padding="3dp"
         android:visibility="gone"
-        app:SpinKit_Color="#FF4081" />
+        app:Spin_Color="#FF4081" />
 
 </RelativeLayout>
