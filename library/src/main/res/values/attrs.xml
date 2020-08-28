@@ -2,7 +2,9 @@
 <resources>
     <attr name="SpinViewStyle" format="reference" />
 
-    <declare-styleable name="SpinView">
+
+    <declare-styleable name="SpinViews">
+        <attr name="Spin_Color" format="color"/>
         <attr name="Spin_Style">
             <enum name="RotatingPlane" value="0" />
             <enum name="DoubleBounce" value="1" />
@@ -20,7 +22,5 @@
             <enum name="PulseRing" value="13" />
             <enum name="MultiplePulseRing" value="14" />
         </attr>
-        <attr name="Spin_Color" format="color" />
     </declare-styleable>
-
 </resources>

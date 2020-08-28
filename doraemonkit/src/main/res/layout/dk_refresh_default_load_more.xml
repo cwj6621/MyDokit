@@ -16,13 +16,12 @@
         android:text="正在加载..."
         android:textColor="#000000" />
 
-    <com.github.ybq.android.spinkit.SpinKitView
+    <ProgressBar
         android:id="@+id/spin_kit"
-        style="@style/SpinView.Small.Circle"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_centerVertical="true"
         android:layout_marginRight="8dp"
         android:layout_toLeftOf="@id/tv_hit_content"
-        app:Spin_Color="#FF4081" />
+         />
 </RelativeLayout>

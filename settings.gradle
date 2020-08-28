@@ -1,2 +1,2 @@
-include ':app', ':doraemonkit', ':library'
+include ':app', ':doraemonkit'
 rootProject.name='My Application'

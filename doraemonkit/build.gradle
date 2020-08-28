@@ -59,7 +59,6 @@ dependencies {
     compileOnly 'com.github.bumptech.glide:glide:3.8.0'
     //高德地图定位
     compileOnly 'com.amap.api:location:latest.integration'
-    implementation project(path: ':library')
 }
 
 configurations.all {
