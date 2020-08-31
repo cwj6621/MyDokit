@@ -1,12 +1,13 @@
 package com.didichuxing.doraemonkit.kit.filemanager.action.file
 
-import com.blankj.utilcode.util.ConvertUtils
-import com.blankj.utilcode.util.FileUtils
-import com.blankj.utilcode.util.PathUtils
-import com.blankj.utilcode.util.ToastUtils
+
 import com.didichuxing.doraemonkit.R as DoKitR
 import com.didichuxing.doraemonkit.kit.filemanager.FileManagerUtil
 import com.didichuxing.doraemonkit.util.DokitUtil
+import com.didichuxing.doraemonkit.utilcode.util.ConvertUtils
+import com.didichuxing.doraemonkit.utilcode.util.FileUtils
+import com.didichuxing.doraemonkit.utilcode.util.PathUtils
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils
 import java.io.File
 
 /**

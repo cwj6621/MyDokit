@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.blankj.utilcode.util.PathUtils
+
 import com.didichuxing.doraemonkit.R
 import com.didichuxing.doraemonkit.kit.core.BaseFragment
 import com.didichuxing.doraemonkit.kit.core.SettingItem
@@ -14,6 +14,7 @@ import com.didichuxing.doraemonkit.kit.core.SettingItemAdapter
 import com.didichuxing.doraemonkit.util.DataCleanUtil
 import com.didichuxing.doraemonkit.util.DokitUtil
 import com.didichuxing.doraemonkit.util.FileUtil
+import com.didichuxing.doraemonkit.utilcode.util.PathUtils
 import com.didichuxing.doraemonkit.widget.dialog.DialogInfo
 import com.didichuxing.doraemonkit.widget.dialog.SimpleDialogListener
 import com.didichuxing.doraemonkit.widget.recyclerview.DividerItemDecoration

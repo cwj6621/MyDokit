@@ -16,12 +16,11 @@ import android.nfc.Tag;
 import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.RequiresApi;
-import android.view.View;
 
-import com.blankj.utilcode.util.AppUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.util.LogHelper;
 import com.didichuxing.doraemonkit.util.UIUtils;
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
 
 import java.nio.ByteBuffer;
 

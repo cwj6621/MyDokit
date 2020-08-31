@@ -1,32 +1,37 @@
 package com.didichuxing.doraemonkit.kit.sysinfo;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.pm.PackageInfo;
 import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresPermission;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.TextUtils;
 import android.view.View;
 
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.NetworkUtils;
-import com.blankj.utilcode.util.PhoneUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.kit.core.BaseFragment;
+import com.didichuxing.doraemonkit.util.DeviceUtils;
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
+import com.didichuxing.doraemonkit.utilcode.util.NetworkUtils;
+import com.didichuxing.doraemonkit.utilcode.util.PhoneUtils;
 import com.didichuxing.doraemonkit.widget.recyclerview.DividerItemDecoration;
 import com.didichuxing.doraemonkit.widget.titlebar.HomeTitleBar;
-import com.didichuxing.doraemonkit.util.DeviceUtils;
+
 import com.didichuxing.doraemonkit.util.ExecutorUtil;
 import com.didichuxing.doraemonkit.util.PermissionUtil;
 import com.didichuxing.doraemonkit.util.UIUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static android.Manifest.permission.READ_PHONE_STATE;
 
 /**
  * 手机app信息
@@ -73,6 +78,7 @@ public class SysInfoFragment extends BaseFragment {
         mInfoList.addItemDecoration(decoration);
     }
 
+    @SuppressLint("MissingPermission")
     private void initData() throws Exception {
         List<SysInfoItem> sysInfoItems = new ArrayList<>();
         addAppData(sysInfoItems);
@@ -97,6 +103,8 @@ public class SysInfoFragment extends BaseFragment {
         sysInfoItems.add(new SysInfoItem(getString(R.string.dk_sysinfo_package_target_sdk), String.valueOf(getContext().getApplicationInfo().targetSdkVersion)));
     }
 
+    @SuppressLint("MissingPermission")
+    @RequiresPermission(READ_PHONE_STATE)
     private void addDeviceData(List<SysInfoItem> sysInfoItems) throws Exception {
         sysInfoItems.add(new TitleItem(getString(R.string.dk_sysinfo_device_info)));
         sysInfoItems.add(new SysInfoItem(getString(R.string.dk_sysinfo_brand_and_model), Build.MANUFACTURER + " " + Build.MODEL));
@@ -122,7 +130,7 @@ public class SysInfoFragment extends BaseFragment {
             e.printStackTrace();
         }
         try {
-            sysInfoItems.add(new SysInfoItem("ROOT", String.valueOf(com.blankj.utilcode.util.DeviceUtils.isDeviceRooted())));
+            sysInfoItems.add(new SysInfoItem("ROOT", String.valueOf(com.didichuxing.doraemonkit.utilcode.util.DeviceUtils.isDeviceRooted())));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -137,7 +145,7 @@ public class SysInfoFragment extends BaseFragment {
             e.printStackTrace();
         }
         try {
-            sysInfoItems.add(new SysInfoItem("Mac", TextUtils.isEmpty(com.blankj.utilcode.util.DeviceUtils.getMacAddress()) ? "null" : com.blankj.utilcode.util.DeviceUtils.getMacAddress()));
+            sysInfoItems.add(new SysInfoItem("Mac", TextUtils.isEmpty(com.didichuxing.doraemonkit.utilcode.util.DeviceUtils.getMacAddress()) ? "null" :com.didichuxing.doraemonkit.utilcode.util.DeviceUtils.getMacAddress()));
         } catch (Exception e) {
             e.printStackTrace();
         }

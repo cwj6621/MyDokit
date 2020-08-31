@@ -1,11 +1,12 @@
 package com.didichuxing.doraemonkit.constant
 
-import com.blankj.utilcode.util.PathUtils
+
 import com.didichuxing.doraemonkit.config.GlobalConfig
 import com.didichuxing.doraemonkit.kit.network.bean.WhiteHostBean
 import com.didichuxing.doraemonkit.kit.network.room_db.DokitDbManager
 import com.didichuxing.doraemonkit.kit.toolpanel.KitWrapItem
 import com.didichuxing.doraemonkit.model.ActivityLifecycleInfo
+import com.didichuxing.doraemonkit.utilcode.util.PathUtils
 import java.io.File
 
 /**

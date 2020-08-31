@@ -8,7 +8,6 @@ import android.os.Looper;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import com.blankj.utilcode.util.ActivityUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.constant.BundleKey;
@@ -22,6 +21,7 @@ import com.didichuxing.doraemonkit.kit.timecounter.TimeCounterManager;
 import com.didichuxing.doraemonkit.kit.core.UniversalActivity;
 import com.didichuxing.doraemonkit.util.LogHelper;
 import com.didichuxing.doraemonkit.util.NotificationUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

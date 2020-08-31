@@ -12,13 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-
-import com.blankj.utilcode.util.ActivityUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.kit.core.AbsDokitView;
 import com.didichuxing.doraemonkit.kit.core.DokitViewLayoutParams;
 import com.didichuxing.doraemonkit.util.LifecycleListenerUtil;
 import com.didichuxing.doraemonkit.util.UIUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
 
 import java.util.ArrayList;
 import java.util.List;

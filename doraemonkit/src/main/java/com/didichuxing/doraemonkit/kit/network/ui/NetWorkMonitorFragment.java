@@ -9,11 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.TextUtils;
 import android.view.View;
-
-import com.blankj.utilcode.util.FileIOUtils;
-import com.blankj.utilcode.util.FileUtils;
-import com.blankj.utilcode.util.GsonUtils;
-import com.blankj.utilcode.util.PathUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.config.DokitMemoryConfig;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
@@ -23,6 +18,10 @@ import com.didichuxing.doraemonkit.kit.parameter.AbsParameterFragment;
 import com.didichuxing.doraemonkit.kit.performance.datasource.DataSourceFactory;
 import com.didichuxing.doraemonkit.kit.core.SettingItem;
 import com.didichuxing.doraemonkit.kit.core.SettingItemAdapter;
+import com.didichuxing.doraemonkit.utilcode.util.FileIOUtils;
+import com.didichuxing.doraemonkit.utilcode.util.FileUtils;
+import com.didichuxing.doraemonkit.utilcode.util.GsonUtils;
+import com.didichuxing.doraemonkit.utilcode.util.PathUtils;
 
 import java.io.File;
 import java.util.ArrayList;

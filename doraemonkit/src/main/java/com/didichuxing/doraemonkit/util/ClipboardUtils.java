@@ -6,7 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.blankj.utilcode.util.Utils;
+import com.didichuxing.doraemonkit.utilcode.util.Utils;
+
 
 /**
  * <pre>

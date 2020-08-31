@@ -2,13 +2,13 @@ package com.didichuxing.doraemonkit.kit.timecounter.counter;
 
 import android.app.Activity;
 
-import com.blankj.utilcode.util.ActivityUtils;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
 import com.didichuxing.doraemonkit.kit.health.AppHealthInfoUtil;
 import com.didichuxing.doraemonkit.kit.health.model.AppHealthInfo;
 import com.didichuxing.doraemonkit.kit.timecounter.TimeCounterDokitView;
 import com.didichuxing.doraemonkit.kit.timecounter.bean.CounterInfo;
 import com.didichuxing.doraemonkit.kit.core.DokitViewManager;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
 
 import java.util.ArrayList;
 import java.util.List;

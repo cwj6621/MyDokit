@@ -16,11 +16,11 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.blankj.utilcode.util.ConvertUtils;
-import com.blankj.utilcode.util.ScreenUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.kit.layoutborder.ViewBorderFrameLayout;
+import com.didichuxing.doraemonkit.utilcode.util.ConvertUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ScreenUtils;
 
 import java.lang.reflect.Method;
 import java.math.BigDecimal;

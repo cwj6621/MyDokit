@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.FrameLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.blankj.utilcode.util.ActivityUtils
+
 import com.didichuxing.doraemonkit.DoraemonKit
 import com.didichuxing.doraemonkit.R
 import com.didichuxing.doraemonkit.constant.BundleKey
@@ -20,6 +20,7 @@ import com.didichuxing.doraemonkit.kit.core.DokitViewLayoutParams
 import com.didichuxing.doraemonkit.kit.core.DokitViewManager
 import com.didichuxing.doraemonkit.kit.core.UniversalActivity
 import com.didichuxing.doraemonkit.util.DokitUtil
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils
 import com.didichuxing.doraemonkit.widget.titlebar.TitleBar
 
 /**

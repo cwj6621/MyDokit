@@ -7,8 +7,7 @@ import android.widget.ImageView
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
-import com.blankj.utilcode.util.AppUtils
-import com.blankj.utilcode.util.BarUtils
+
 import com.didichuxing.doraemonkit.BuildConfig
 import com.didichuxing.doraemonkit.DoraemonKit
 import com.didichuxing.doraemonkit.R
@@ -16,6 +15,8 @@ import com.didichuxing.doraemonkit.constant.SharedPrefsKey
 import com.didichuxing.doraemonkit.kit.core.DokitViewManager
 import com.didichuxing.doraemonkit.util.DokitUtil
 import com.didichuxing.doraemonkit.util.SharedPrefsUtil
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils
+import com.didichuxing.doraemonkit.utilcode.util.BarUtils
 import com.didichuxing.doraemonkit.widget.bravh.BaseMultiItemQuickAdapter
 import com.didichuxing.doraemonkit.widget.bravh.viewholder.BaseViewHolder
 

@@ -12,16 +12,15 @@ import android.os.Process;
 import androidx.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.view.Choreographer;
-
-import com.blankj.utilcode.util.ActivityUtils;
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.TimeUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.config.DokitMemoryConfig;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
 import com.didichuxing.doraemonkit.kit.health.AppHealthInfoUtil;
 import com.didichuxing.doraemonkit.kit.health.model.AppHealthInfo;
 import com.didichuxing.doraemonkit.kit.network.NetworkManager;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
+import com.didichuxing.doraemonkit.utilcode.util.TimeUtils;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

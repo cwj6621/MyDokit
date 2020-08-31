@@ -1,12 +1,11 @@
 package com.didichuxing.doraemonkit.aop;
 
 import android.util.Log;
-
-import com.blankj.utilcode.util.ReflectUtils;
 import com.didichuxing.doraemonkit.kit.network.okhttp.interceptor.DoraemonInterceptor;
 import com.didichuxing.doraemonkit.kit.network.okhttp.interceptor.DoraemonWeakNetworkInterceptor;
 import com.didichuxing.doraemonkit.kit.network.okhttp.interceptor.LargePictureInterceptor;
 import com.didichuxing.doraemonkit.kit.network.okhttp.interceptor.MockInterceptor;
+import com.didichuxing.doraemonkit.utilcode.util.ReflectUtils;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

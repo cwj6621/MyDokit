@@ -1,9 +1,10 @@
 package com.didichuxing.doraemonkit.kit.toolpanel
 
-import com.blankj.utilcode.util.GsonUtils
+
 import com.didichuxing.doraemonkit.constant.DokitConstant
 import com.didichuxing.doraemonkit.kit.AbstractKit
 import com.didichuxing.doraemonkit.util.DokitUtil
+import com.didichuxing.doraemonkit.utilcode.util.GsonUtils
 import java.lang.Exception
 
 /**

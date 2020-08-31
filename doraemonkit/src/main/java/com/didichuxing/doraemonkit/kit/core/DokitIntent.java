@@ -3,7 +3,8 @@ package com.didichuxing.doraemonkit.kit.core;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.blankj.utilcode.util.ActivityUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
+
 
 /**
  * Created by jintai on 2019/9/16.

@@ -5,11 +5,9 @@ import android.content.SharedPreferences;
 
 import androidx.annotation.Nullable;
 
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.Utils;
 import com.didichuxing.doraemonkit.constant.SharedPrefsKey;
+import com.didichuxing.doraemonkit.utilcode.util.Utils;
 
-import static com.didichuxing.doraemonkit.constant.SharedPrefsKey.APP_HEALTH;
 
 /**
  * Created by wanglikun on 2018/9/14.

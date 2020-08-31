@@ -6,7 +6,8 @@ import android.content.Context;
 import android.os.Environment;
 import android.text.format.Formatter;
 
-import com.blankj.utilcode.util.PathUtils;
+import com.didichuxing.doraemonkit.utilcode.util.PathUtils;
+
 
 /**
  * Created by wanglikun on 2018/11/17.

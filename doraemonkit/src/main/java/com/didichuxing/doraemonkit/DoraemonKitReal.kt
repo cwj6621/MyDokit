@@ -4,9 +4,6 @@ import android.app.Application
 import android.os.Build
 import android.text.TextUtils
 import android.util.Log
-import com.blankj.utilcode.util.*
-import com.blankj.utilcode.util.NetworkUtils.OnNetworkStatusChangedListener
-import com.blankj.utilcode.util.ThreadUtils.SimpleTask
 import com.didichuxing.doraemonkit.aop.OkHttpHook
 import com.didichuxing.doraemonkit.config.GlobalConfig
 import com.didichuxing.doraemonkit.config.PerformanceSpInfoConfig
@@ -56,6 +53,7 @@ import com.didichuxing.doraemonkit.util.DokitUtil
 import com.didichuxing.doraemonkit.util.DoraemonStatisticsUtil
 import com.didichuxing.doraemonkit.util.LogHelper
 import com.didichuxing.doraemonkit.util.SharedPrefsUtil
+import com.didichuxing.doraemonkit.utilcode.util.*
 import java.io.File
 import java.util.*
 
@@ -134,7 +132,7 @@ object DoraemonKitReal {
 
         }
         //添加自定义的kit 需要读取配置文件
-        ThreadUtils.executeByIo(object : SimpleTask<Any>() {
+        ThreadUtils.executeByIo(object : ThreadUtils.SimpleTask<Any>() {
             override fun doInBackground(): Any {
                 addInnerKit(app)
                 return Any()
@@ -368,7 +366,7 @@ object DoraemonKitReal {
      * https://blog.csdn.net/csdn_aiyang/article/details/80665185 内部存储和外部存储的概念
      */
     private fun startBigFileInspect() {
-        ThreadUtils.executeByIo(object : SimpleTask<Any?>() {
+        ThreadUtils.executeByIo(object : ThreadUtils.SimpleTask<Any?>() {
             @Throws(Throwable::class)
             override fun doInBackground(): Any? {
                 val externalCacheDir = APPLICATION!!.externalCacheDir
@@ -412,7 +410,8 @@ object DoraemonKitReal {
      * 注册全局的网络状态监听
      */
     private fun registerNetworkStatusChangedListener() {
-        NetworkUtils.registerNetworkStatusChangedListener(object : OnNetworkStatusChangedListener {
+        NetworkUtils.registerNetworkStatusChangedListener(object :
+            NetworkUtils.OnNetworkStatusChangedListener {
             override fun onDisconnected() {
                 //ToastUtils.showShort("当前网络已断开");
                 Log.i("Doraemon", "当前网络已断开")

@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.Html
 import android.view.View
-import com.blankj.utilcode.util.NetworkUtils
+
 import com.didichuxing.doraemonkit.R
 import com.didichuxing.doraemonkit.constant.BundleKey
 import com.didichuxing.doraemonkit.constant.DokitConstant
@@ -13,6 +13,7 @@ import com.didichuxing.doraemonkit.constant.FragmentIndex
 import com.didichuxing.doraemonkit.kit.core.BaseFragment
 import com.didichuxing.doraemonkit.kit.core.UniversalActivity
 import com.didichuxing.doraemonkit.util.DokitUtil
+import com.didichuxing.doraemonkit.utilcode.util.NetworkUtils
 import kotlinx.android.synthetic.main.dk_fragment_db_debug.title_bar
 import kotlinx.android.synthetic.main.dk_fragment_db_debug.tv_ip
 import kotlinx.android.synthetic.main.dk_fragment_file_transfer.*

@@ -8,12 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
-
-import com.blankj.utilcode.util.ActivityUtils;
 import com.didichuxing.doraemonkit.model.ViewInfo;
 import com.didichuxing.doraemonkit.util.LifecycleListenerUtil;
 import com.didichuxing.doraemonkit.util.LogHelper;
 import com.didichuxing.doraemonkit.util.UIUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
 
 import java.util.ArrayList;
 import java.util.List;

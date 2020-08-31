@@ -10,7 +10,7 @@ import androidx.annotation.LayoutRes
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.blankj.utilcode.util.*
+
 import com.didichuxing.doraemonkit.DoraemonKit
 import com.didichuxing.doraemonkit.R
 import com.didichuxing.doraemonkit.constant.DokitConstant
@@ -18,6 +18,10 @@ import com.didichuxing.doraemonkit.kit.core.BaseFragment
 import com.didichuxing.doraemonkit.kit.toolpanel.decoration.HorizontalDividerItemDecoration
 import com.didichuxing.doraemonkit.kit.toolpanel.decoration.VerticalDividerItemDecoration
 import com.didichuxing.doraemonkit.util.DokitUtil
+import com.didichuxing.doraemonkit.utilcode.util.ConvertUtils
+import com.didichuxing.doraemonkit.utilcode.util.FileIOUtils
+import com.didichuxing.doraemonkit.utilcode.util.GsonUtils
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils
 import com.didichuxing.doraemonkit.widget.bravh.listener.OnItemDragListener
 import com.didichuxing.doraemonkit.widget.bravh.viewholder.BaseViewHolder
 import com.didichuxing.doraemonkit.widget.dialog.SimpleDialogListener
@@ -279,7 +283,7 @@ class DokitManagerFragment : BaseFragment() {
                     v.duration = 300
                     v.start()
                 }
-                VibrateUtils.vibrate(50)
+
                 mDragStartPos = pos
                 //copy 一份数据用来做位置交换
                 mBakKits.clear()

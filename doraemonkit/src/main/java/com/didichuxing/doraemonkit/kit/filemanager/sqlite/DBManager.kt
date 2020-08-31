@@ -2,7 +2,7 @@ package com.didichuxing.doraemonkit.kit.filemanager.sqlite
 
 import android.content.ContentValues
 import android.database.Cursor
-import com.blankj.utilcode.util.JsonUtils
+
 import com.didichuxing.doraemonkit.DoraemonKit
 import com.didichuxing.doraemonkit.R
 import com.didichuxing.doraemonkit.aop.DokitPluginConfig

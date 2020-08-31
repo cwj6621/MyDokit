@@ -11,12 +11,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.kit.network.bean.NetworkRecord;
 import com.didichuxing.doraemonkit.kit.network.bean.Request;
 import com.didichuxing.doraemonkit.kit.network.bean.Response;
 import com.didichuxing.doraemonkit.kit.network.utils.ByteUtil;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.widget.jsonviewer.JsonRecyclerView;
 
 import org.json.JSONException;

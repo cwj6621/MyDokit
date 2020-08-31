@@ -16,9 +16,10 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.blankj.utilcode.util.ConvertUtils;
-import com.blankj.utilcode.util.GsonUtils;
-import com.blankj.utilcode.util.ToastUtils;
+
+import com.didichuxing.doraemonkit.utilcode.util.ConvertUtils;
+import com.didichuxing.doraemonkit.utilcode.util.GsonUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.widget.bravh.listener.OnLoadMoreListener;
 import com.didichuxing.doraemonkit.widget.bravh.module.BaseLoadMoreModule;
 import com.didichuxing.doraemonkit.R;

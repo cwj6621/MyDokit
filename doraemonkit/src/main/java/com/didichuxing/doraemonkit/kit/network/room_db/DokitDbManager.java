@@ -2,11 +2,11 @@ package com.didichuxing.doraemonkit.kit.network.room_db;
 
 import android.text.TextUtils;
 
-import com.blankj.utilcode.util.ThreadUtils;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
 import com.didichuxing.doraemonkit.kit.network.okhttp.interceptor.MockInterceptor;
 import com.didichuxing.doraemonkit.kit.core.DokitViewManager;
 import com.didichuxing.doraemonkit.util.LogHelper;
+import com.didichuxing.doraemonkit.utilcode.util.ThreadUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

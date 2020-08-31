@@ -1,11 +1,11 @@
 package com.didichuxing.doraemonkit.datapick;
 
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.DeviceUtils;
-import com.blankj.utilcode.util.LanguageUtils;
-import com.blankj.utilcode.util.TimeUtils;
-import com.didichuxing.doraemonkit.BuildConfig;
+
 import com.didichuxing.doraemonkit.constant.DokitConstant;
+
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
+import com.didichuxing.doraemonkit.utilcode.util.DeviceUtils;
+import com.didichuxing.doraemonkit.utilcode.util.TimeUtils;
 
 import java.util.List;
 import java.util.Locale;

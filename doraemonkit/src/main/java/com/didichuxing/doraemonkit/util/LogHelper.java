@@ -1,6 +1,7 @@
 package com.didichuxing.doraemonkit.util;
 
-import com.blankj.utilcode.util.LogUtils;
+
+import com.didichuxing.doraemonkit.utilcode.util.LogUtils;
 
 /**
  * Created by wanglikun on 2018/9/10.

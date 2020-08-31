@@ -4,9 +4,8 @@ import android.content.Intent;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
-
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.util.DokitUtil;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.widget.bravh.entity.node.BaseNode;
 import com.didichuxing.doraemonkit.widget.bravh.provider.BaseNodeProvider;
 import com.didichuxing.doraemonkit.widget.bravh.viewholder.BaseViewHolder;

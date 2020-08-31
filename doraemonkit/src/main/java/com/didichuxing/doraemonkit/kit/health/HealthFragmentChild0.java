@@ -10,14 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.ToastUtils;
-import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.config.GlobalConfig;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
 import com.didichuxing.doraemonkit.okgo.model.Response;
 import com.didichuxing.doraemonkit.kit.core.BaseFragment;
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.widget.dialog.DialogListener;
 import com.didichuxing.doraemonkit.widget.dialog.DialogProvider;
 import com.didichuxing.doraemonkit.widget.dialog.UniversalDialogFragment;

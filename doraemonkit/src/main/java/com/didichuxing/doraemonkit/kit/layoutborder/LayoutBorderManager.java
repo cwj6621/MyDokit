@@ -6,10 +6,9 @@ import android.view.ViewGroup;
 import android.view.Window;
 
 import androidx.fragment.app.Fragment;
-
-import com.blankj.utilcode.util.ActivityUtils;
 import com.didichuxing.doraemonkit.kit.core.UniversalActivity;
 import com.didichuxing.doraemonkit.util.LifecycleListenerUtil;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
 
 /**
  * Created by wanglikun on 2019/1/9

@@ -10,7 +10,6 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import com.blankj.utilcode.util.BarUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
@@ -20,6 +19,7 @@ import com.didichuxing.doraemonkit.kit.performance.PerformanceDokitView;
 import com.didichuxing.doraemonkit.model.ActivityLifecycleInfo;
 import com.didichuxing.doraemonkit.util.LogHelper;
 import com.didichuxing.doraemonkit.util.SystemUtil;
+import com.didichuxing.doraemonkit.utilcode.util.BarUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

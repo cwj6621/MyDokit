@@ -10,13 +10,13 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import com.blankj.utilcode.util.ActivityUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.kit.core.AbsDokitView;
 import com.didichuxing.doraemonkit.kit.core.DokitViewLayoutParams;
 import com.didichuxing.doraemonkit.kit.core.DokitViewManager;
 import com.didichuxing.doraemonkit.util.ImageUtil;
 import com.didichuxing.doraemonkit.util.UIUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
 
 /**
  * @author jintai

@@ -9,31 +9,24 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.FileIOUtils;
-import com.blankj.utilcode.util.FileUtils;
-import com.blankj.utilcode.util.PathUtils;
-import com.blankj.utilcode.util.ThreadUtils;
-import com.blankj.utilcode.util.TimeUtils;
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.aop.method_stack.MethodStackUtil;
+
 import com.didichuxing.doraemonkit.kit.core.BaseFragment;
-import com.didichuxing.doraemonkit.kit.core.SettingItem;
-import com.didichuxing.doraemonkit.kit.core.SettingItemAdapter;
-import com.didichuxing.doraemonkit.kit.loginfo.LogLine;
 import com.didichuxing.doraemonkit.util.FileUtil;
-import com.didichuxing.doraemonkit.widget.titlebar.HomeTitleBar;
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
+import com.didichuxing.doraemonkit.utilcode.util.FileIOUtils;
+import com.didichuxing.doraemonkit.utilcode.util.FileUtils;
+import com.didichuxing.doraemonkit.utilcode.util.PathUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ThreadUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
+
 import com.didichuxing.doraemonkit.widget.titlebar.TitleBar;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.List;
+
 
 /**
  * @desc: Activity跳转耗时检测首页

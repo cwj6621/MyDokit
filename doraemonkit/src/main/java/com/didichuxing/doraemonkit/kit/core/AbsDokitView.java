@@ -24,13 +24,12 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-
-import com.blankj.utilcode.util.ActivityUtils;
-import com.blankj.utilcode.util.ScreenUtils;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
 import com.didichuxing.doraemonkit.config.FloatIconConfig;
 import com.didichuxing.doraemonkit.kit.main.MainIconDokitView;
 import com.didichuxing.doraemonkit.util.LogHelper;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ScreenUtils;
 
 import java.lang.ref.WeakReference;
 

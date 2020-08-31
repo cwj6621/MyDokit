@@ -5,14 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-
-import com.blankj.utilcode.util.ActivityUtils;
-import com.blankj.utilcode.util.ConvertUtils;
-import com.blankj.utilcode.util.ScreenUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.kit.core.AbsDokitView;
 import com.didichuxing.doraemonkit.kit.core.DokitViewLayoutParams;
 import com.didichuxing.doraemonkit.kit.core.DokitViewManager;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ConvertUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ScreenUtils;
 
 /**
  * Created by jintai on 2019/09/26.

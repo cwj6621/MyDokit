@@ -3,9 +3,7 @@
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 
-import com.blankj.utilcode.constant.MemoryConstants;
-import com.blankj.utilcode.util.ConvertUtils;
-import com.blankj.utilcode.util.ImageUtils;
+
 //import com.bumptech.glide.request.RequestListener;
 //import com.bumptech.glide.request.target.Target;
 //import com.didichuxing.doraemonkit.config.PerformanceSpInfoConfig;

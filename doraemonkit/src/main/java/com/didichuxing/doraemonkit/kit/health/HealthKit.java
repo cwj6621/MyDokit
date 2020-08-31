@@ -3,7 +3,6 @@ package com.didichuxing.doraemonkit.kit.health;
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.aop.DokitPluginConfig;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
@@ -11,6 +10,7 @@ import com.didichuxing.doraemonkit.constant.FragmentIndex;
 import com.didichuxing.doraemonkit.kit.AbstractKit;
 import com.didichuxing.doraemonkit.kit.Category;
 import com.didichuxing.doraemonkit.util.DokitUtil;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 
 
 /**

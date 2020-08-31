@@ -1,10 +1,6 @@
 package com.didichuxing.doraemonkit.kit.health;
 
-import com.blankj.utilcode.util.AppUtils;
-import com.blankj.utilcode.util.DeviceUtils;
-import com.blankj.utilcode.util.GsonUtils;
-import com.blankj.utilcode.util.TimeUtils;
-import com.blankj.utilcode.util.ToastUtils;
+
 import com.didichuxing.doraemonkit.BuildConfig;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.config.CrashCaptureConfig;
@@ -17,6 +13,11 @@ import com.didichuxing.doraemonkit.kit.network.NetworkManager;
 import com.didichuxing.doraemonkit.okgo.DokitOkGo;
 import com.didichuxing.doraemonkit.okgo.callback.StringCallback;
 import com.didichuxing.doraemonkit.okgo.model.Response;
+import com.didichuxing.doraemonkit.utilcode.util.AppUtils;
+import com.didichuxing.doraemonkit.utilcode.util.DeviceUtils;
+import com.didichuxing.doraemonkit.utilcode.util.GsonUtils;
+import com.didichuxing.doraemonkit.utilcode.util.TimeUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

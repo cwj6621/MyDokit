@@ -12,13 +12,13 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.config.GpsMockConfig;
 import com.didichuxing.doraemonkit.model.LatLng;
 import com.didichuxing.doraemonkit.kit.core.BaseFragment;
 import com.didichuxing.doraemonkit.kit.core.SettingItem;
 import com.didichuxing.doraemonkit.kit.core.SettingItemAdapter;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.widget.recyclerview.DividerItemDecoration;
 import com.didichuxing.doraemonkit.widget.titlebar.HomeTitleBar;
 import com.didichuxing.doraemonkit.widget.webview.MyWebView;

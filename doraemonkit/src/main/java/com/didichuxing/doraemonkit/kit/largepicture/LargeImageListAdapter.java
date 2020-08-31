@@ -9,11 +9,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.blankj.utilcode.util.ConvertUtils;
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.DoraemonKit;
 import com.didichuxing.doraemonkit.R;
 import com.didichuxing.doraemonkit.picasso.MemoryPolicy;
+import com.didichuxing.doraemonkit.utilcode.util.ConvertUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.widget.recyclerview.AbsRecyclerAdapter;
 import com.didichuxing.doraemonkit.widget.recyclerview.AbsViewBinder;
 import com.didichuxing.doraemonkit.util.ClipboardUtils;

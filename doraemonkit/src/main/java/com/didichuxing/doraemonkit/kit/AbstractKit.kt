@@ -3,9 +3,9 @@ package com.didichuxing.doraemonkit.kit
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import com.blankj.utilcode.util.ActivityUtils
 import com.didichuxing.doraemonkit.constant.BundleKey
 import com.didichuxing.doraemonkit.kit.core.UniversalActivity
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils
 
 /**
  * ================================================

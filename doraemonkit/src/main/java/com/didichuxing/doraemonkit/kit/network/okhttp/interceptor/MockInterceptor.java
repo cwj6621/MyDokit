@@ -5,9 +5,6 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.blankj.utilcode.util.ActivityUtils;
-import com.blankj.utilcode.util.TimeUtils;
-import com.blankj.utilcode.util.ToastUtils;
 import com.didichuxing.doraemonkit.constant.DokitConstant;
 import com.didichuxing.doraemonkit.kit.health.AppHealthInfoUtil;
 import com.didichuxing.doraemonkit.kit.health.model.AppHealthInfo;
@@ -18,6 +15,9 @@ import com.didichuxing.doraemonkit.kit.network.room_db.MockInterceptApiBean;
 import com.didichuxing.doraemonkit.kit.network.room_db.MockTemplateApiBean;
 import com.didichuxing.doraemonkit.util.DokitUtil;
 import com.didichuxing.doraemonkit.util.LogHelper;
+import com.didichuxing.doraemonkit.utilcode.util.ActivityUtils;
+import com.didichuxing.doraemonkit.utilcode.util.TimeUtils;
+import com.didichuxing.doraemonkit.utilcode.util.ToastUtils;
 
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONObject;
