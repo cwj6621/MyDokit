@@ -26,7 +26,16 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
+    defaultConfig {
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                        "room.schemaLocation":"$projectDir/schemas".toString(),
+                        "room.incremental":"true",
+                        "room.expandProjection":"true"]
+            }
+        }
+    }
 }
 
 dependencies {
@@ -46,7 +55,7 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:okhttp:3.12.1'
     implementation 'com.squareup.okhttp:okhttp:2.7.5'
- 
+
     //sql
     implementation 'com.tencent.wcdb:wcdb-android:1.0.8'
     //ktor
