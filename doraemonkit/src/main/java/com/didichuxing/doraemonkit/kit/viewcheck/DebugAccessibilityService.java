@@ -8,8 +8,6 @@ import android.content.pm.PackageManager;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
 import com.didichuxing.doraemonkit.constant.BroadcastAction;
 import com.didichuxing.doraemonkit.constant.BundleKey;
 import com.didichuxing.doraemonkit.util.LogHelper;
@@ -63,7 +61,7 @@ public class DebugAccessibilityService extends AccessibilityService {
         }
         Intent intent = new Intent(BroadcastAction.ACTION_ACCESSIBILITY_UPDATE);
         intent.putExtra(BundleKey.ACCESSIBILITY_DATA, info);
-        LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(intent);
+       sendBroadcast(intent);
     }
 
     @Override
